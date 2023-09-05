@@ -1,0 +1,112 @@
+html {
+    background-color: lavenderblush;
+}
+@media screen and (max-width: 400px)  {
+    ul {
+        flex-direction: column;
+    }
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 8px;
+    padding: 12px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.introduction {
+    display: flex;
+}
+.introduction img {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.intro {
+    width: 480px;
+    margin-right: 240px;
+    margin-left: 90px;
+}
+a:hover{
+    color: rosybrown;
+    font-size: 18px;
+}
+
+header {
+    background-color: lavenderblush;
+    margin: 12px;
+    border-radius: 12px;
+}
+h1 {
+    display: flex;
+    font-size: 32px;
+    padding-left: 200px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.hobby-text{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hobbies h2 {
+    margin-left: 600px;
+    margin-top: 40px;
+}
+.hobbies p {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.hobbies {
+    margin-right: 80px;
+    margin-left: 240px;
+    width: 1300px;
+}
+.hobbies img {
+    width: 250px;
+    margin-left: 200px;
+}
+.education {
+    width: 680px;
+    margin-right: 240px;
+    margin-left: 90px;
+}
+.education img {
+    margin-left: 80px;
+}
+.school-list {
+    display: flex;
+}
+.jobs  {
+    width: 680px;
+    margin-right: 240px;
+    margin-left: 90px;
+}
+footer {
+    display: flex;
+    background-color: rosybrown;
+    width: 1300px;
+    padding: 28px;
+    margin: 30px;
+    border-radius: 12px;
+}
+footer a:hover {
+    color: lavenderblush;
+}
+
+
+
