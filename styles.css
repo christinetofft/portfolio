@@ -4,9 +4,7 @@ background-color: white;
 header {
     display: flex;
     width: 100%;
-    height: 30px;
-    justify-content: space-between;
-
+    height: 18px;
 }
 .logo img {
     height: 55px;
@@ -14,8 +12,16 @@ header {
     align-self: center;
     margin-left: 10px;
 }
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
 nav ul {
-    margin-right: 30px;
+    margin-left: 830px;
+    margin-top: 20px;
 }
 nav ul li {
     list-style-type: none;
@@ -24,6 +30,7 @@ nav ul li {
     float: left;
     margin-right: 16px;
     font-size: 20px;
+    justify-content: end;
 }
 html {
     scroll-behavior: smooth;
@@ -47,7 +54,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 722px;
+    height: 750px;
+    width: 100%;
 }
 .main-intro h3{
     display: flex;
@@ -56,12 +64,14 @@ main {
     font-size: 36px;
     margin-right: 370px;
     color: darkgoldenrod;
+    margin-bottom: 0;
 }
 .main-intro h1 {
     display: flex;
     justify-content: center;
     font-size: 80px;
     margin-top: 0;
+    margin-bottom: 58px;
 }
 .main-intro a {
     display: flex;
@@ -81,18 +91,22 @@ main {
     font-size: 40px;
 }
 .intro p {
-    margin-right: 700px;
+    margin-right: 100px;
 }
 .information{
     display: flex;
     flex-direction: row;
 }
+.info-about-me {
+    display: flex;
+}
 .lists {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-self: center;
-    margin-left: 100px;
+    align-self: end;
+    margin-right: 100px;
+
 }
 .school-list{
     background-color: #cddcd1;
@@ -138,18 +152,39 @@ main {
     margin-left: 140px;
     margin-bottom: 140px;
 }
-footer {
+.footer {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     background-color: #cddcd1;
     width: 1300px;
-    padding: 28px;
+    padding: 20px;
     margin: 30px;
     border-radius: 12px;
 }
-footer img{
+.flower {
+    margin-right: 50px;
+}
+.contact-me {
+    margin-left: 30px;
+}
+.contact-me p {
+    font-size: 17px;
+}
+h6 {
+    font-size: 20px;
+    margin-bottom: 26px;
+    margin-top: 20px;
+}
+.contact-me img{
     margin-right: 10px;
 }
 footer a:hover {
     font-size: 18px;
     color: darkgoldenrod;
+}
+
+/*Making it phone-friendly*/
+@media only screen and (max-width: 600px) {
+    
 }
