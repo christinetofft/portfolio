@@ -92,6 +92,8 @@ main {
 }
 .intro p {
     margin-right: 100px;
+    max-width: 500px;
+    margin-top: 40px;
 }
 .information{
     display: flex;
@@ -144,12 +146,12 @@ main {
     font-size: 17px;
 }
 .project h2 {
-    margin-left: 140px;
+    margin-left: 160px;
     font-size: 40px;
     margin-top: 140px;
 }
 .project p {
-    margin-left: 140px;
+    margin-left: 160px;
     margin-bottom: 140px;
 }
 .footer {
@@ -186,5 +188,37 @@ footer a:hover {
 
 /*Making it phone-friendly*/
 @media only screen and (max-width: 600px) {
-    
+    .main-intro h3{
+        width: 100%;
+    }
+    .intro {
+        width: 80%;
+        align-items: flex-end;
+
+        font-size: 12px;
+    }
+     .intro h2 {
+        text-align: start;
+         font-size: 22px;
+         margin-left: 0;
+    }
+    .logo img {
+        margin-left: 0;
+    }
+    nav ul {
+        display: none;
+    }
+    .lists{
+       flex-direction: column;
+        width: 100%;
+    }
+    .intro img {
+        max-width: 50%;
+        max-height: 20%;
+    }
+
+
+
 }
+
+
